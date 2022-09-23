@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo {
+    width: 150px;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 90px;
+    border: none;
+}
+
+.bg-header {
+    background: #FFEAC5;
+    height: 500px;
+}
+.women-header{
+    width: 350px;
+    height: 480px;
+    margin-top: 30px;
+}
+.women-header img {
+    width: 400px;
+}
+.lang{
+    border: 1px solid red;
+}
+
+.topnav{
+    width: auto;
+    margin-top: 30px;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #0f0e0e;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #c63c8c;
+    border-radius: 3px 9px 3px;
+    
+  }
+  
+.topnav :hover{
+    background: #c63c8c;
+    color: #fff;
+}
+
+
+.topnav a :active{
+    background: #c63c8c;
+    color: #fff;
+}
+
+#banner{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    margin-top: 80px;
+}
+.t1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #c63c8c;
+}
+.t2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #f18d42;
+}
+h1{
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #c63c8c;
+    line-height: 36px;
+}
+.lead{
+    padding-top: 23px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1b1a1a;
+}
+
+/* Style buttons */
+.btn {
+    background-color: #c63c8c; 
+    border: none; 
+    border-radius: 20px;
+    color: white; 
+    padding: 16px 19px; 
+    cursor: pointer;  
+    width: 200px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #f18d42;
+  }
+  .btn i {
+    font-size: 20px;
+    width: 30px;
+  }
+  .programme-banner{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-center{
+    background-color: #c63c8c; 
+    border: none; 
+    border-radius: 20px;
+    color: #FFEAC5; 
+    padding: 16px 19px; 
+    cursor: pointer;  
+    width: 500px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .div-center {
+    text-align: center;
+  }
+
+  .text-center {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .text{
+    padding-top: 20px;
+  }
+  .programme-section{
+    background: #FFEAC5;
+    height: auto;
+  }
+  .thumbnail{
+    width: 280px;
+    height: 370px;
+    background: #fff;
+  }
+  .card1{
+    border-radius: 0px 80px 0px;
+  }
+  .card2{
+    border-radius: 0px 0px 80px 80px;
+  }
+  .card3{
+    border-radius: 80px 0px 80px;
+  }
+  .caption{
+    text-align: center;
+    color: #555250;
+  }
+ 
