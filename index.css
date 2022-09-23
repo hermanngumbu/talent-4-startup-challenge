@@ -41,19 +41,19 @@
     padding: 12px;
     text-decoration: none;
     font-size: 14px;
-    border: 1px solid #c63c8c;
+    border: 1px solid #711A50;
     border-radius: 3px 9px 3px;
     
   }
   
 .topnav :hover{
-    background: #c63c8c;
+    background: #711A50;
     color: #fff;
 }
 
 
 .topnav a :active{
-    background: #c63c8c;
+    background: #711A50;
     color: #fff;
 }
 
@@ -67,7 +67,7 @@
 .t1 {
     font-weight: 600;
     font-size: 40px;
-    color: #c63c8c;
+    color: #711A50;
 }
 .t2 {
     font-weight: 600;
@@ -79,8 +79,13 @@ h1{
     font-weight: bold;
     font-size: 60px;
     text-transform: capitalize;
-    color: #c63c8c;
+    color: #711A50;
     line-height: 36px;
+}
+h2{
+  text-transform: capitalize;
+    color: #711A50;
+    font-weight: 700;
 }
 .lead{
     padding-top: 23px;
@@ -91,7 +96,7 @@ h1{
 
 /* Style buttons */
 .btn {
-    background-color: #c63c8c; 
+    background-color: #711A50; 
     border: none; 
     border-radius: 20px;
     color: white; 
@@ -117,7 +122,7 @@ h1{
   }
 
   .btn-center{
-    background-color: #c63c8c; 
+    background-color: #711A50; 
     border: none; 
     border-radius: 20px;
     color: #FFEAC5; 
@@ -136,7 +141,7 @@ h1{
 
   .text-center {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
   }
   .text{
     padding-top: 20px;
@@ -163,4 +168,115 @@ h1{
     text-align: center;
     color: #555250;
   }
- 
+  .container-timer{
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    background: #fff;
+    border: 2px solid #EF8242;
+    border-radius: 100px 0%;
+  } 
+
+  #clockdiv{
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+
+}
+.end-register{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    padding-bottom: 35px;
+}
+#clockdiv div > span{
+    font-size: 50px;
+    font-weight: 700;
+        color: #711A50;
+}
+.days, .hours, .minutes{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.smalltext{
+    padding-top: 5px;
+    padding-left: 0px;
+    font-size: 10px;
+    color: black;
+}
+form{
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+input[type='file']{
+  display: none;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.file-similation{
+  margin-top: -25px;
+  text-align: center;
+  background-color: #711A50;
+  color:#fff;
+  border-radius: 5% / 50%;
+  padding: 10px 25px;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  font-weight: bold;
+}
+button[type='submit']{
+  background-color: #711A50;
+  color:#fff;
+  border-radius: 3% / 50%;
+  font-weight: bold;
+}
+.partner-banner .container{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 0px;
+}
+.partner-banner .container img{
+  width: 140px;
+  height: 80px;
+}
+.footer{
+  background-color: #FFEAC5;
+}
+.footer-img{
+  background-color: #FFEAC5;
+}
+.footer-img img{
+  width: 100%;
+  height: 105px;
+}
+.end-phrase{
+  text-align: center;
+  padding: 25px 22% 5%;
+}
+.icone{
+  display: flex;
+  justify-content: flex-end;
+  height: 72px;
+}
+.icone img{
+  width: 45px;
+  padding: 0px 5px;
+}
