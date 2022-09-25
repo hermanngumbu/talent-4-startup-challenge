@@ -2,60 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Poppins', Arial, sans-serif;
 }
-#logo {
-    width: 150px;
+p{
+  font-size: 16px;
+  font-family: 'Poppins';
 }
-
-.navbar {
-    background-color: #fff;
-    height: 90px;
+a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Poppins';
+}
+h1 h2 h3 {
+  font-family: 'Poppins';
+}
+#nav {
+    height: 109px;
     border: none;
-}
+} 
 
-.bg-header {
+#bg-header {
     background: #FFEAC5;
-    height: 500px;
-}
-.women-header{
-    width: 350px;
-    height: 480px;
-    margin-top: 30px;
-}
-.women-header img {
-    width: 400px;
-}
-.lang{
-    border: 1px solid red;
 }
 
-.topnav{
-    width: auto;
-    margin-top: 30px;
-}
-  
   /* Style the links inside the navigation bar */
-  .topnav a {
+  #langue{
+
+  }
+  #langue a{
     color: #0f0e0e;
-    text-align: center;
-    padding: 12px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     border: 1px solid #c63c8c;
-    border-radius: 3px 9px 3px;
-    
+    border-radius: 9px;
+    width: 50px;
+    height: 40px;
+    padding: 12px;
   }
   
-.topnav :hover{
+  #langue a:hover{
     background: #c63c8c;
     color: #fff;
-}
+    border-radius: 9px;
+    text-decoration: none;
+} 
 
-
-.topnav a :active{
-    background: #c63c8c;
-    color: #fff;
-}
 
 #banner{
     display: flex;
@@ -90,23 +81,24 @@ h1{
 }
 
 /* Style buttons */
-.btn {
-    background-color: #c63c8c; 
+.btnHeader {
+    background: #c63c8c; 
     border: none; 
     border-radius: 20px;
     color: white; 
-    padding: 16px 19px; 
     cursor: pointer;  
-    width: 200px;
+    width: 300px;
     font-weight: bold;
     font-size: 18px;
+    padding: 16px 140px 16px 2px;
+    font-weight: bolder;
   }
   
-  .btn:hover {
-    background-color: #f18d42;
+  .btnHeader:hover {
+    background: #f18d42; 
   }
-  .btn i {
-    font-size: 20px;
+  .btnHeader i {
+    font-size: smaller;
     width: 30px;
   }
   .programme-banner{
@@ -119,7 +111,6 @@ h1{
   .btn-center{
     background-color: #c63c8c; 
     border: none; 
-    border-radius: 20px;
     color: #FFEAC5; 
     padding: 16px 19px; 
     cursor: pointer;  
