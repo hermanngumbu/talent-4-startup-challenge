@@ -16,6 +16,7 @@ a{
 text-decoration: none;
 font-size: 16px;
 font-family: 'Poppins';
+color: #FFEAC5;
 }
 h1 h2 h3 {
 font-family: 'Poppins';
@@ -43,7 +44,7 @@ font-family: 'Poppins';
   padding: 12px;
 }
 
-#langue a:hover{
+#langue a:hover, #langue a:active, .english1, .french1{
   background: #711A50;
   color: #fff;
   border-radius: 9px;
@@ -218,6 +219,7 @@ h2{
   .programme-section{
     background: #FFEAC5;
     height: auto;
+    padding-bottom: 100px;
   }
   .thumbnail{
     width: 280px;
@@ -241,7 +243,7 @@ h2{
     margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
+    width: 72%;
     background: #fff;
     border: 2px solid #EF8242;
     border-radius: 100px 0%;
@@ -256,8 +258,8 @@ h2{
 
 }
 .end-register{
-    padding-top: 15px;
-    font-size: 20px;
+    padding-top: 45px;
+    font-size: 28px;
     font-weight: 600;
     text-align: center;
 }
@@ -269,7 +271,7 @@ h2{
     padding-bottom: 35px;
 }
 #clockdiv div > span{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 700;
         color: #711A50;
 }
@@ -280,15 +282,14 @@ h2{
 .smalltext{
     padding-top: 5px;
     padding-left: 0px;
-    font-size: 10px;
+    font-size: 14px;
     color: black;
 }
 form{
-  width: 55%;
+  width: 72%;
   margin-right: auto;
   margin-left: auto;
   padding-top: 20px;
-  margin-bottom: 60px;
 }
 input[type='file']{
   display: none;
@@ -297,6 +298,13 @@ input[type='file']{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 10px 0px;
+}
+.form-control{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-group label{
+  padding: 10px 0px;
 }
 .file-similation{
   margin-top: -25px;
@@ -317,6 +325,9 @@ button[type='submit']{
   border-radius: 3% / 50%;
   font-weight: bold;
 }
+.partner-banner{
+  margin-top: 15px;
+}
 .partner-banner .container{
  display: flex;
  justify-content: space-between;
@@ -334,7 +345,7 @@ button[type='submit']{
 }
 .footer-img img{
   width: 100%;
-  height: 105px;
+  height: 100px;
 }
 .end-phrase{
   text-align: center;

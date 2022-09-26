@@ -7,20 +7,9 @@ const hour= document.querySelector('#h-hour');
 const second= document.querySelector('#s-second');
 const filebtn = document.querySelector('.file-similation');
 const file=document.querySelector('input[type="file"]');
+const french=document.querySelector('.french');
+const english=document.querySelector('.english');
 
-/* english.addEventListener('click', (e)=>{
-    e.preventDefault();
-    time_h2.innerText="End of registrations in";
-    day.innerText="DAYS";
-    hour.innerText="HOURS";
-    second.innerText="SECONDS";
-})
-french.addEventListener('click', ()=>{
-    time_h2.innerText="Fin des inscriptions dans";
-    day.innerText="JOURS";
-    hour.innerText="HEURES";
-    second.innerText="SECONDES";
-}) */
 
 filebtn.addEventListener('click', (e)=>{
     e.preventDefault();
