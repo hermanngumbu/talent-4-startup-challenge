@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
   height: 100%;
@@ -29,14 +30,14 @@ h1 h2 h3 {
 }
 
   /* Style the links inside the navigation bar */
-  #langue{
+ /*  #langue{
 
-  }
+  } */
   #langue a{
     color: #0f0e0e;
     text-decoration: none;
     font-size: 12px;
-    border: 1px solid #c63c8c;
+    border: 1px solid #711A50;
     border-radius: 9px;
     width: 50px;
     height: 40px;
@@ -44,7 +45,7 @@ h1 h2 h3 {
   }
   
   #langue a:hover{
-    background: #c63c8c;
+    background: #711A50;
     color: #fff;
     border-radius: 9px;
     text-decoration: none;
@@ -56,26 +57,18 @@ h1 h2 h3 {
 .t1 {
     font-weight: 600;
     font-size: 40px;
-    color: #c63c8c;
+    color: #711A50;
 }
 .t2 {
     font-weight: 600;
     font-size: 40px;
     color: #f18d42;
 }
-h1{
-    font-weight: 700;
-    font-weight: bold;
-    font-size: 60px;
-    text-transform: capitalize;
-    color: #c63c8c;
-    line-height: 36px;
-}
 .programme{
     font-weight: bold;
     font-size: 50px;
     text-transform: capitalize;
-    color: #c63c8c;
+    color: #711A50;
     line-height: 66px;
     padding-top: 100px;
 }
@@ -84,75 +77,276 @@ h1{
     font-weight: normal;
     font-size: 16px;
     color: #1b1a1a;
-}
-.programe-challenge{
-  height: 300px;
-}
-/* Style buttons */
-.btnHeader {
-    background: #c63c8c; 
-    border: none; 
-    border-radius: 20px;
-    color: white; 
-    cursor: pointer;  
-    width: 300px;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 16px 140px 16px 2px;
-    font-weight: bolder;
+  }
+  .programe-challenge{
+    height: 300px;
+  }
+  .btnHeader {
+      background: #711A50; 
+      border: none; 
+      border-radius: 20px;
+      color: white; 
+      cursor: pointer;  
+      width: 300px;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 16px 140px 16px 2px;
+      font-weight: bolder;
+    }
+    .btnHeader:hover {
+      background: #f18d42; 
+    }
+    .btnHeader i {
+      font-size: smaller;
+      width: 30px;
+    }
+    
+    .div-center {
+      text-align: center;
+      margin-top: 60px;
+    }
+    .btn-conditions{
+      background-color: #711A50; 
+      border: none; 
+      color: #FFEAC5; 
+      cursor: pointer;  
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 70px;
+      text-align: center;
+      padding: 16px 19px;
+      border-radius: 20px;
+    }
+    .btn-conditions:hover{
+      background: #f18d42;
+      border-radius: 20px;
+    }
+    .programme-section{
+      background: #FFEAC5;
+      height: auto;
+    }
+    .thumbnail{
+      width: 280px;
+      height: 370px;
+      background: #fff;
+      border: 4px solid #f18d42;
+    }
+    .card1{
+      border-radius: 0px 80px 0px;
+    }
+    .card2{
+      border-radius: 0px 0px 80px 80px;
+    }
+    .card3{
+      border-radius: 80px 0px 80px;
+    }
+    .caption{
+      text-align: center;
+      color: #555250;
+    }
+    h1{
+      font-weight: 700;
+      font-weight: bold;
+      font-size: 60px;
+      text-transform: capitalize;
+      color: #711A50;
+      line-height: 36px;
+  }
+  h2{
+    text-transform: capitalize;
+      color: #711A50;
+      font-weight: 700;
+  }
+  .lead{
+      padding-top: 23px;
+      font-weight: normal;
+      font-size: 16px;
+      color: #1b1a1a;
   }
   
-  .btnHeader:hover {
-    background: #f18d42; 
+  /* Style buttons */
+  .btn {
+      background-color: #711A50; 
+      border: none; 
+      border-radius: 20px;
+      color: white; 
+      padding: 16px 19px; 
+      cursor: pointer;  
+      width: 200px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    
+    .btn:hover {
+      background-color: #f18d42;
+    }
+    .btn i {
+      font-size: 20px;
+      width: 30px;
+    }
+    .programme-banner{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .btn-center{
+      background-color: #711A50; 
+      border: none; 
+      border-radius: 20px;
+      color: #FFEAC5; 
+      padding: 16px 19px; 
+      cursor: pointer;  
+      width: 500px;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 70px;
+      text-align: center;
+    }
+  
+    .div-center {
+      text-align: center;
+    }
+  
+    .text-center {
+      text-align: center;
+      padding-top: 40px;
+    }
+    .text{
+      padding-top: 20px;
+    }
+    .programme-section{
+      background: #FFEAC5;
+      height: auto;
+    }
+    .thumbnail{
+      width: 280px;
+      height: 370px;
+      background: #fff;
+    }
+    .card1{
+      border-radius: 0px 80px 0px;
+    }
+    .card2{
+      border-radius: 0px 0px 80px 80px;
+    }
+    .card3{
+      border-radius: 80px 0px 80px;
+    }
+    .caption{
+      text-align: center;
+      color: #555250;
+    }
+    .container-timer{
+      margin-top: 35px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 55%;
+      background: #fff;
+      border: 2px solid #EF8242;
+      border-radius: 100px 0%;
+    } 
+  
+    #clockdiv{
+      color: #fff;
+      display: flex;
+      text-align: center;
+      font-size: 30px;
+      justify-content: center;
+  
   }
-  .btnHeader i {
-    font-size: smaller;
-    width: 30px;
+  .end-register{
+      padding-top: 15px;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
   }
-
-  .div-center {
-    text-align: center;
-    margin-top: 60px;
+  
+  #clockdiv > div{
+      padding: 10px;
+      border-radius: 3px;
+      display: flex;
+      padding-bottom: 35px;
   }
-  .btn-conditions{
-    background-color: #c63c8c; 
-    border: none; 
-    color: #FFEAC5; 
-    cursor: pointer;  
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: 70px;
-    text-align: center;
-    padding: 16px 19px;
+  #clockdiv div > span{
+      font-size: 50px;
+      font-weight: 700;
+          color: #711A50;
   }
-  /* .text-center {
-    text-align: center;
-    padding-top: 100px;
+  .days, .hours, .minutes{
+      margin-left: 0px;
+      margin-right: 10px;
   }
-  .text{
+  .smalltext{
+      padding-top: 5px;
+      padding-left: 0px;
+      font-size: 10px;
+      color: black;
+  }
+  form{
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 20px;
-  } */
-  .programme-section{
-    background: #FFEAC5;
-    height: auto;
+    margin-bottom: 60px;
   }
-  .thumbnail{
-    width: 280px;
-    height: 370px;
-    background: #fff;
-    border: 4px solid #f18d42;
+  input[type='file']{
+    display: none;
   }
-  .card1{
-    border-radius: 0px 80px 0px;
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .card2{
-    border-radius: 0px 0px 80px 80px;
-  }
-  .card3{
-    border-radius: 80px 0px 80px;
-  }
-  .caption{
+  .file-similation{
+    margin-top: -25px;
     text-align: center;
-    color: #555250;
+    background-color: #711A50;
+    color:#fff;
+    border-radius: 5% / 50%;
+    padding: 10px 25px;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    font-weight: bold;
   }
- 
+  button[type='submit']{
+    background-color: #711A50;
+    color:#fff;
+    border-radius: 3% / 50%;
+    font-weight: bold;
+  }
+  .partner-banner .container{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0px;
+  }
+  .partner-banner .container img{
+    width: 140px;
+    height: 80px;
+  }
+  .footer{
+    background-color: #FFEAC5;
+  }
+  .footer-img{
+    background-color: #FFEAC5;
+  }
+  .footer-img img{
+    width: 100%;
+    height: 105px;
+  }
+  .end-phrase{
+    text-align: center;
+    padding: 25px 22% 5%;
+  }
+  .icone{
+    display: flex;
+    justify-content: flex-end;
+    height: 72px;
+  }
+  .icone img{
+    width: 45px;
+    padding: 0px 5px;
+  }
