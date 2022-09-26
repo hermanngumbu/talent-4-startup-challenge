@@ -15,7 +15,6 @@ const file=document.querySelector('input[type="file"]');
     hour.innerText="HOURS";
     second.innerText="SECONDS";
 })
-
 french.addEventListener('click', ()=>{
     time_h2.innerText="Fin des inscriptions dans";
     day.innerText="JOURS";
