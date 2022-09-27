@@ -1,4 +1,4 @@
-let deadline = new Date("oct 24, 2022 00:00:00").getTime();
+let deadline = new Date("oct 24, 2025 00:00:00").getTime();
 const  time_h2= document.querySelector('time_h2');
 /* const english=document.querySelector('.english-translate');
 const french=document.querySelector('.french-translate'); */
