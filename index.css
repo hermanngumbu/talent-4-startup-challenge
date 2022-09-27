@@ -14,7 +14,6 @@ p{
 }
 a{
   text-decoration: none;
-  font-size: 16px;
   font-family: 'Poppins';
 }
 h1 h2 h3 {
@@ -117,6 +116,10 @@ h1 h2 h3 {
       padding: 16px 19px;
       border-radius: 20px;
     }
+    .btn-conditions a{
+      font-size: 20px;
+      color: #fff;
+    }
     .btn-conditions:hover{
       background: #f18d42;
       border-radius: 20px;
@@ -210,37 +213,17 @@ h1 h2 h3 {
       background: #FFEAC5;
       height: auto;
     }
- 
-    /* .card1{
-      border-radius: 0px 80px 0px;
-    }
-    .card2{
-      border-radius: 0px 0px 80px 80px;
-    }
-    .card3{
-      border-radius: 80px 0px 80px;
-    } */
-    /* .caption{
-      text-align: center;
-      color: #555250;
-    } */
     .container-timer{
-      margin-top: 35px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 72%;
+      width: 50%;
       background: #fff;
       border: 2px solid #EF8242;
       border-radius: 100px 0%;
     } 
   
     #clockdiv{
-      color: #fff;
-      display: flex;
-      text-align: center;
-      font-size: 30px;
-      justify-content: center;
-  
+      font-size: 19px;
+      height: auto;
+      width: auto;
   }
   .end-register{
       padding-top: 45px;
@@ -253,12 +236,14 @@ h1 h2 h3 {
       padding: 10px;
       border-radius: 3px;
       display: flex;
-      padding-bottom: 35px;
+      padding-bottom: 19px;
+      margin-top: 12px;
   }
   #clockdiv div > span{
-      font-size: 80px;
+      font-size: 45px;
       font-weight: 700;
-          color: #711A50;
+      color: #711A50;
+      
   }
   .days, .hours, .minutes{
       margin-left: 0px;
